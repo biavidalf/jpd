@@ -384,13 +384,17 @@ function Home() {
                   </h2>
 
                   <p className="mt-4 text-gray-600 text-lg">
-                    O BL realiza atividades esportivas com crianças de 7 a 12
-                    anos, promovendo transformação social para crianças e
-                    adolescentes em situação de vulnerabilidade, oferecendo a
-                    prática esportiva e atividades culturais, pedagógicas e
-                    teatrais. Com bolas, cones, bambolês, circuitos e esportes,
-                    a equipe proporciona às crianças a alegria de correr,
-                    brincar e gastar energia com alegria e disposição.
+                    O BL realiza{" "}
+                    <span className="font-semibold">
+                      {" "}
+                      atividades esportivas com crianças de 7 a 12 anos,{" "}
+                    </span>{" "}
+                    promovendo transformação social para crianças e adolescentes
+                    em situação de vulnerabilidade, oferecendo a prática
+                    esportiva e atividades culturais, pedagógicas e teatrais.
+                    Com bolas, cones, bambolês, circuitos e esportes, a equipe
+                    proporciona às crianças a alegria de correr, brincar e
+                    gastar energia com alegria e disposição.
                   </p>
                 </div>
               </div>
@@ -443,12 +447,15 @@ function Home() {
 
                   <p className="mt-4 text-gray-600 text-lg">
                     O SB leva beleza, autoestima e magia para o dia de mulheres
-                    de todas as idades. A equipe embeleza crianças,
-                    adolescentes, mulheres adultas em situação de rua e idosas
-                    em abrigos, distribuindo sorrisos. Com o lema Beleza com
-                    propósito, a equipe visa trabalhar e aumentar a autoestima
-                    de suas pequenas clientes por meio de serviços de maquiagem,
-                    cabelo e unhas.
+                    de todas as idades. A equipe{" "}
+                    <span className="font-semibold">
+                      embeleza crianças, adolescentes, mulheres adultas em
+                      situação de rua e idosas em abrigos,
+                    </span>{" "}
+                    distribuindo sorrisos. Com o lema Beleza com propósito, a
+                    equipe visa trabalhar e aumentar a autoestima de suas
+                    pequenas clientes por meio de serviços de maquiagem, cabelo
+                    e unhas.
                   </p>
                 </div>
               </div>
@@ -465,23 +472,233 @@ function Home() {
                 </div>
 
                 <div className="lg:py-24">
-                  <h2 className="text-3xl font-bold sm:text-4xl text-red-600">Pintura de Rosto</h2>
+                  <h2 className="text-3xl font-bold sm:text-4xl text-red-600">
+                    Pintura de Rosto
+                  </h2>
 
                   <p className="mt-4 text-gray-600 text-lg">
-                    A PR traz cor aos nossos dias por meio de pinturas faciais e
-                    corporais nas crianças. Seja um animal favorito, um
-                    super-herói ou o brasão do time do coração, nada paga o
-                    sorriso dos pequenos ao ver arte com significado registrada
-                    neles. A alegria de escolher sua arte favorita e ver o
-                    resultado final no espelho é o que faz valer a pena todo o
-                    esforço dos nossos artistas em levar cor para o dia dos
-                    nossos pequenos.
+                    A PR traz cor aos nossos dias por meio de{" "}
+                    <span className="font-semibold">
+                      {" "}
+                      pinturas faciais e corporais nas crianças.{" "}
+                    </span>{" "}
+                    Seja um animal favorito, um super-herói ou o brasão do time
+                    do coração, nada paga o sorriso dos pequenos ao ver arte com
+                    significado registrada neles. A alegria de escolher sua arte
+                    favorita e ver o resultado final no espelho é o que faz
+                    valer a pena todo o esforço dos nossos artistas em levar cor
+                    para o dia dos nossos pequenos.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="bg-gray-900 text-white">
+        <div className="w-11/12 mx-auto">
+          <div className="px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="text-3xl font-bold sm:text-4xl">Parceiro JPD</h2>
+              <p className="mt-4 text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                dolores iure fugit totam iste obcaecati. Consequatur ipsa quod
+                ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga
+                minima.
+              </p>
+            </div>
+            <div className="max-w-xl mt-4 md:mt-10 mb-2 md:my-6">
+              <h2 className="text-2xl font-bold sm:text-3xl">
+                Benefícios de ser um Parceiro JPD:
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 gap-8  md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-gray-800 p-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-heart-handshake"
+                  >
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                    <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
+                    <path d="m18 15-2-2" />
+                    <path d="m15 18-2-2" />
+                  </svg>
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Impacto Duradouro</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora
+                    animi! Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-gray-800 p-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-speech"
+                  >
+                    <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
+                    <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+                    <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
+                  </svg>
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Atualizações Regulares</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora
+                    animi! Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-gray-800 p-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-helping-hand"
+                  >
+                    <path d="m3 15 5.12-5.12A3 3 0 0 1 10.24 9H13a2 2 0 1 1 0 4h-2.5m4-.68 4.17-4.89a1.88 1.88 0 0 1 2.92 2.36l-4.2 5.94A3 3 0 0 1 14.96 17H9.83a2 2 0 0 0-1.42.59L7 19" />
+                    <path d="m2 14 6 6" />
+                  </svg>
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Envolvimento Ativo</h2>
+
+                  <p className="mt-1 text-sm text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora
+                    animi! Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section className="py-20 bg-gray-800 text-gray-100">
+            <div className="container px-4 mx-auto">
+              <div className="max-w-2xl mx-auto mb-16 text-center">
+                <span className="font-bold tracki uppercase text-cyan-400">PLANOS</span>
+                <h2 className="text-4xl font-bold lg:text-5xl">Como funciona?</h2>
+                <p>ao se tornar</p>
+              </div>
+              <div className="flex flex-wrap items-stretch mx-4 gap-y-6">
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Azul</h4>
+                      <span className="text-6xl font-bold">$5
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="mt-3 leadi text-gray-400 flex-1">Etiam ac convallis enim, eget euismod dolor.</p>
+                    <a href="https://www.parceirojpd.com.br/" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-cyan-400 text-gray-800">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Bronze</h4>
+                      <span className="text-6xl font-bold">$10
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="leading-3 flex-1 font-semibold">Morbi cursus ut sapien sit amet consectetur.</p>
+                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-gray-800 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Prata</h4>
+                      <span className="text-6xl font-bold">$30
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
+                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Ouro</h4>
+                      <span className="text-6xl font-bold">$50
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
+                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Platina</h4>
+                      <span className="text-6xl font-bold">$70
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
+                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+
+                <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                  <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-bold">Diamante</h4>
+                      <span className="text-6xl font-bold">$100
+                        <span className="text-sm tracki">/mês</span>
+                      </span>
+                    </div>
+                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
+                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        
       </section>
 
       <section id="direcao" className="py-6 w-11/12 mx-auto">
@@ -509,7 +726,12 @@ function Home() {
                     title="Instagram"
                     className="text-gray-400"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-4 h-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      fill="currentColor"
+                      className="w-4 h-4"
+                    >
                       <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
                     </svg>
                   </a>
@@ -532,7 +754,12 @@ function Home() {
                     title="Instagram"
                     className="text-gray-400"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-4 h-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      fill="currentColor"
+                      className="w-4 h-4"
+                    >
                       <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
                     </svg>
                   </a>
@@ -555,7 +782,12 @@ function Home() {
                     title="Instagram"
                     className="text-gray-400"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-4 h-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      fill="currentColor"
+                      className="w-4 h-4"
+                    >
                       <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
                     </svg>
                   </a>
@@ -566,28 +798,51 @@ function Home() {
         </div>
       </section>
 
-      <div id="contato" className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+      <div
+        id="contato"
+        className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
+      >
         <div className="flex flex-col gap-6">
           <div className="space-y-2">
             <h2 className="text-4xl font-bold">Entre em contato!</h2>
-            <div className="text-gray-400">Quer nos mandar alguma mensagem? Escreva ao lado!</div>
+            <div className="text-gray-400">
+              Quer nos mandar alguma mensagem? Escreva ao lado!
+            </div>
           </div>
           <img src={Contact} alt="" className="w-[400px]" />
         </div>
         <form noValidate="" className="space-y-6">
           <div>
             <label className="text-sm">Seu nome</label>
-            <input id="name" type="text" placeholder="" className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow" />
+            <input
+              id="name"
+              type="text"
+              placeholder=""
+              className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow"
+            />
           </div>
           <div>
             <label className="text-sm">E-mail</label>
-            <input id="email" type="email" className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow" />
+            <input
+              id="email"
+              type="email"
+              className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow"
+            />
           </div>
           <div>
             <label className="text-sm">Mensagem</label>
-            <textarea id="message" rows="3" className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow"></textarea>
+            <textarea
+              id="message"
+              rows="3"
+              className="w-full p-3 rounded border bg-gray-100 border-gray-300 shadow"
+            ></textarea>
           </div>
-          <button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded bg-blue-500 text-gray-200">Send Message</button>
+          <button
+            type="submit"
+            className="w-full p-3 text-sm font-bold tracki uppercase rounded bg-blue-500 text-gray-200"
+          >
+            Send Message
+          </button>
         </form>
       </div>
 
@@ -595,39 +850,86 @@ function Home() {
         <div className="container flex flex-col p-4 mx-auto md:px-8 md:py-3 lg:flex-row divide-gray-400">
           <ul className="self-center py-6 space-y-4 text-center items-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
             <li className="">
-              <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 md:justify-start">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="flex justify-center space-x-3 md:justify-start"
+              >
                 <div className="flex items-center justify-center w-12 h-12 rounded-full">
                   <img src={Logo} alt="" />
                 </div>
-                <span className="self-center text-2xl font-semibold">Jovens Pela Diferença</span>
+                <span className="self-center text-2xl font-semibold">
+                  Jovens Pela Diferença
+                </span>
               </a>
             </li>
           </ul>
           <div className="flex flex-col justify-center">
             <div className="flex flex-col items-center space-x-4 sm:flex-row sm:justify-center sm:items-center">
               <ul className="text-center items-center sm:flex sm:justify-around sm:space-x-4 lg:flex-1">
-                <li className="cursor-pointer hover:text-gray-600"><a href="#sobre">Sobre</a></li>
-                <li className="cursor-pointer hover:text-gray-600"><a href="#contato">Contatar</a></li>
-                <li className="cursor-pointer hover:text-gray-600"><a href="https://www.parceirojpd.com.br/">Quero ser parceiro</a></li>
-                <li className="cursor-pointer hover:text-gray-600"><a href="https://docs.google.com/forms/d/e/1FAIpQLScJyWtGsco3Ug3ryhb86lCuEGxk4lSHdm_d4pU7CF7EWaWc_w/viewform">Quero me inscrever</a></li>
+                <li className="cursor-pointer hover:text-gray-600">
+                  <a href="#sobre">Sobre</a>
+                </li>
+                <li className="cursor-pointer hover:text-gray-600">
+                  <a href="#contato">Contatar</a>
+                </li>
+                <li className="cursor-pointer hover:text-gray-600">
+                  <a href="https://www.parceirojpd.com.br/">
+                    Quero ser parceiro
+                  </a>
+                </li>
+                <li className="cursor-pointer hover:text-gray-600">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScJyWtGsco3Ug3ryhb86lCuEGxk4lSHdm_d4pU7CF7EWaWc_w/viewform">
+                    Quero me inscrever
+                  </a>
+                </li>
               </ul>
               <div className="flex gap-3">
-                <a target="_blank" href="https://www.instagram.com/jovenspeladiferenca/" title="Instagram" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-4 h-4">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/jovenspeladiferenca/"
+                  title="Instagram"
+                  className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 32 32"
+                    fill="currentColor"
+                    className="w-4 h-4"
+                  >
                     <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
                   </svg>
                 </a>
-                <a target="_blank" href="https://www.facebook.com/jovenspeladiferenca/?locale=pt_BR" title="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-4 h-4">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/jovenspeladiferenca/?locale=pt_BR"
+                  title="Facebook"
+                  className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    className="w-4 h-4"
+                  >
                     <path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
                   </svg>
                 </a>
-                <a target="_blank" href="mailto:jpdprojetosocial@gmail.com" title="Gmail" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-4 h-4">
+                <a
+                  target="_blank"
+                  href="mailto:jpdprojetosocial@gmail.com"
+                  title="Gmail"
+                  className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    className="w-4 h-4"
+                  >
                     <path d="M16.318 13.714v5.484h9.078c-0.37 2.354-2.745 6.901-9.078 6.901-5.458 0-9.917-4.521-9.917-10.099s4.458-10.099 9.917-10.099c3.109 0 5.193 1.318 6.38 2.464l4.339-4.182c-2.786-2.599-6.396-4.182-10.719-4.182-8.844 0-16 7.151-16 16s7.156 16 16 16c9.234 0 15.365-6.49 15.365-15.635 0-1.052-0.115-1.854-0.255-2.651z"></path>
                   </svg>
                 </a>
-
               </div>
             </div>
           </div>
