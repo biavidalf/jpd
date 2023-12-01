@@ -9,10 +9,13 @@ import ImagemEster from "./../../assets/ester.jpg";
 import ImagemIsabele from "./../../assets/Isabele.jpg";
 import ImagemVirginia from "./../../assets/virginia.jpg";
 import Contact from "./../../assets/contact-us-concept-illustration_278696-3-removebg-preview.png";
+import { useState } from "react";
 
 function Home() {
+  const [isDropdownActive, setIsDropdownActive] = useState(false);
+
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800">
+    <div className="min-h-screenbg-gray-100 text-gray-800">
       <header className="p-4 ">
         <div className="container flex justify-between h-16 mx-auto">
           <a
@@ -59,13 +62,13 @@ function Home() {
               </a>
             </li>
           </ul>
-          <button className="flex justify-end p-4 md:hidden">
+          <button onClick={() => {setIsDropdownActive(!isDropdownActive)}} className="relative flex items-center justify-end p-4 md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="w-6 h-6"
+              className={`w-8 h-8 ${isDropdownActive && 'bg-gray-100'} rounded p-1`}
             >
               <path
                 strokeLinecap="round"
@@ -74,6 +77,42 @@ function Home() {
                 d="M4 6h16M4 12h16M4 18h16"
               ></path>
             </svg>
+            {isDropdownActive && <ul className="w-40 text-sm top-14 absolute flex flex-col gap-2 bg-gray-50 rounded py-2 shadow-[0_3px_10px_rgb(0,0,0,0.1)]">
+              <li className="flex py-2">
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="flex items-center px-4 -mb-1"
+                >
+                  Início
+                </a>
+              </li>
+              <li className="flex py-2">
+                <a
+                  href="#parceiroJPD"
+                  className="flex items-center px-4 -mb-1"
+                >
+                  Parceiro JPD
+                </a>
+              </li>
+              <li className="flex py-2">
+                <a
+                  rel="noopener noreferrer"
+                  href="#sobre"
+                  className="flex items-center px-4 -mb-1 hover:text-blue-600 hover:border-blue-600"
+                >
+                  Sobre
+                </a>
+              </li>
+              <li className="flex py-2">
+                <a
+                  href="#contato"
+                  className="flex items-center px-4 -mb-1 hover:text-blue-600 hover:border-blue-600"
+                >
+                  Contatar
+                </a>
+              </li>
+            </ul>}
           </button>
         </div>
       </header>
@@ -81,7 +120,7 @@ function Home() {
       <section id="banner" className="w-11/12 mx-auto lg:mb-16">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-around">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-xl lg:text-left">
-            <div className="text-5xl font-bold sm:text-6xl">
+            <div className="text-4xl font-bold sm:text-6xl">
               <p>ASSOCIAÇÃO</p>
               <p>
                 CIVIL <span className="text-blue-500">JOVENS</span>
@@ -90,7 +129,7 @@ function Home() {
                 <span className="text-blue-500">PELA DIFERENÇA</span>
               </p>
             </div>
-            <p className="mt-6 mb-8 text-lg sm:mb-12">
+            <p className="mt-6 mb-8 sm:text-lg sm:mb-12">
               ONG com mais de 300 voluntários ativos
               <br className="hidden md:inline lg:hidden" /> que vem há 8 anos
               fazendo a diferença em Fortaleza - CE
