@@ -120,7 +120,7 @@ function Home() {
       <section id="banner" className="w-11/12 mx-auto lg:mb-16">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-around">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-xl lg:text-left">
-            <div className="text-4xl font-bold sm:text-6xl">
+            <div className="text-4xl font-bold sm:text-6xl text-center">
               <p>ASSOCIAÇÃO</p>
               <p>
                 CIVIL <span className="text-blue-500">JOVENS</span>
