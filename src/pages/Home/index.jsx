@@ -8,7 +8,6 @@ import PR from "./../../assets/pintura.png";
 import ImagemEster from "./../../assets/ester.jpg";
 import ImagemIsabele from "./../../assets/Isabele.jpg";
 import ImagemVirginia from "./../../assets/virginia.jpg";
-import Contact from "./../../assets/contact-us-concept-illustration_278696-3-removebg-preview.png";
 import ImagemIntegracao from "./../../assets/integracao.jpg";
 import { useState } from "react";
 
