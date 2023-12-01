@@ -8,7 +8,7 @@ import PR from "./../../assets/pintura.png";
 import ImagemEster from "./../../assets/ester.jpg";
 import ImagemIsabele from "./../../assets/Isabele.jpg";
 import ImagemVirginia from "./../../assets/virginia.jpg";
-import ImagemIntegracao from "./../../assets/integracao.jpg";
+import ImagemIntegracao from "./../../assets/integracao-agosto.jpg";
 import { useState } from "react";
 
 function Home() {
