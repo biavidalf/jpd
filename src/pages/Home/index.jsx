@@ -35,7 +35,7 @@ function Home() {
             </li>
             <li className="flex">
               <a
-                href="https://www.parceirojpd.com.br/"
+                href="#parceiroJPD"
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600"
               >
                 Parceiro JPD
@@ -496,16 +496,17 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-900 text-white">
+      <section id="parceiroJPD" className="bg-gray-900 text-white">
         <div className="w-11/12 mx-auto">
           <div className="px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="text-3xl font-bold sm:text-4xl">Parceiro JPD</h2>
               <p className="mt-4 text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-                dolores iure fugit totam iste obcaecati. Consequatur ipsa quod
-                ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga
-                minima.
+                O Parceiro JPD é muito mais do que uma simples arrecadação de
+                fundos. É uma oportunidade para indivíduos, empresas e
+                comunidades se tornarem parte fundamental de nossa missão. Ao se
+                tornar um Parceiro JPD, você se junta a nós na construção de um
+                futuro mais brilhante e compassivo para aqueles que atendemos.
               </p>
             </div>
             <div className="max-w-xl mt-4 md:mt-10 mb-2 md:my-6">
@@ -524,10 +525,10 @@ function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-heart-handshake"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-heart-handshake"
                   >
                     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                     <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
@@ -540,9 +541,8 @@ function Home() {
                   <h2 className="text-lg font-bold">Impacto Duradouro</h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora
-                    animi! Quaerat, saepe?
+                    Sua doação mensal nos permite planejar projetos de longo
+                    prazo e atingir mais pessoas.
                   </p>
                 </div>
               </div>
@@ -556,10 +556,10 @@ function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-speech"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-speech"
                   >
                     <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
                     <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
@@ -571,9 +571,8 @@ function Home() {
                   <h2 className="text-lg font-bold">Atualizações Regulares</h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora
-                    animi! Quaerat, saepe?
+                    Mantenha-se informado sobre o impacto de sua contribuição e
+                    o progresso de nossos projetos.
                   </p>
                 </div>
               </div>
@@ -587,10 +586,10 @@ function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-helping-hand"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-helping-hand"
                   >
                     <path d="m3 15 5.12-5.12A3 3 0 0 1 10.24 9H13a2 2 0 1 1 0 4h-2.5m4-.68 4.17-4.89a1.88 1.88 0 0 1 2.92 2.36l-4.2 5.94A3 3 0 0 1 14.96 17H9.83a2 2 0 0 0-1.42.59L7 19" />
                     <path d="m2 14 6 6" />
@@ -601,9 +600,8 @@ function Home() {
                   <h2 className="text-lg font-bold">Envolvimento Ativo</h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora
-                    animi! Quaerat, saepe?
+                    Sua doação mensal nos permite planejar projetos de longo
+                    prazo e atingir mais pessoas.
                   </p>
                 </div>
               </div>
@@ -612,8 +610,12 @@ function Home() {
           <section className="py-20 bg-gray-800 text-gray-100">
             <div className="container px-4 mx-auto">
               <div className="max-w-2xl mx-auto mb-16 text-center">
-                <span className="font-bold tracki uppercase text-cyan-400">PLANOS</span>
-                <h2 className="text-4xl font-bold lg:text-5xl">Como funciona?</h2>
+                <span className="font-bold tracki uppercase text-cyan-400">
+                  PLANOS
+                </span>
+                <h2 className="text-4xl font-bold lg:text-5xl">
+                  Como funciona?
+                </h2>
                 <p>ao se tornar</p>
               </div>
               <div className="flex flex-wrap items-stretch mx-4 gap-y-6">
@@ -621,12 +623,20 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Azul</h4>
-                      <span className="text-6xl font-bold">$5
+                      <span className="text-6xl font-bold">
+                        R$5
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="mt-3 leadi text-gray-400 flex-1">Etiam ac convallis enim, eget euismod dolor.</p>
-                    <a href="https://www.parceirojpd.com.br/" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                    <p className="mt-3 leadi text-gray-400 flex-1">
+                      Um pequeno gesto que faz uma grande diferença.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
 
@@ -634,12 +644,23 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-cyan-400 text-gray-800">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Bronze</h4>
-                      <span className="text-6xl font-bold">$10
+                      <span className="text-6xl font-bold">
+                        R$10
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="leading-3 flex-1 font-semibold">Morbi cursus ut sapien sit amet consectetur.</p>
-                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-gray-800 text-gray-300">Get Started</a>
+                    <p className="leading-3 flex-1 font-semibold">
+                      Sua contribuição ajuda a construir pontes para um futuro
+                      melhor.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-gray-800 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
 
@@ -647,12 +668,22 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Prata</h4>
-                      <span className="text-6xl font-bold">$30
+                      <span className="text-6xl font-bold">
+                        R$30
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
-                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                    <p className="leadi text-gray-400 flex-1">
+                      Juntos, podemos criar oportunidades para todos.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
 
@@ -660,12 +691,23 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Ouro</h4>
-                      <span className="text-6xl font-bold">$50
+                      <span className="text-6xl font-bold">
+                        R$50
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
-                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                    <p className="leadi text-gray-400 flex-1">
+                      Seu compromisso fortalece nossa luta por um mundo mais
+                      inclusivo.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
 
@@ -673,12 +715,23 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Platina</h4>
-                      <span className="text-6xl font-bold">$70
+                      <span className="text-6xl font-bold">
+                        R$70
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
-                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                    <p className="leadi text-gray-400 flex-1">
+                      Seu compromisso fortalece nossa luta por um mundo mais
+                      inclusivo.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
 
@@ -686,19 +739,29 @@ function Home() {
                   <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-gray-900">
                     <div className="space-y-2">
                       <h4 className="text-2xl font-bold">Diamante</h4>
-                      <span className="text-6xl font-bold">$100
+                      <span className="text-6xl font-bold">
+                        R$100
                         <span className="text-sm tracki">/mês</span>
                       </span>
                     </div>
-                    <p className="leadi text-gray-400 flex-1">Phasellus ultrices bibendum nibh in vehicula.</p>
-                    <a href="https://www.parceirojpd.com.br/" target="_blank" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300">Get Started</a>
+                    <p className="leadi text-gray-400 flex-1">
+                      Sua dedicação é um farol de esperança para aqueles que
+                      precisam.
+                    </p>
+                    <a
+                      href="https://www.parceirojpd.com.br/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-transparent border border-cyan-400 text-gray-300"
+                    >
+                      Escolher
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </section>
         </div>
-        
       </section>
 
       <section id="direcao" className="py-6 w-11/12 mx-auto">
@@ -865,7 +928,7 @@ function Home() {
             </li>
           </ul>
           <div className="flex flex-col justify-center">
-            <div className="flex flex-col items-center space-x-4 sm:flex-row sm:justify-center sm:items-center">
+            <div className="flex flex-col items-center space-x-4 space-y-2 sm:flex-row sm:justify-center sm:items-center">
               <ul className="text-center items-center sm:flex sm:justify-around sm:space-x-4 lg:flex-1">
                 <li className="cursor-pointer hover:text-gray-600">
                   <a href="#sobre">Sobre</a>
@@ -887,6 +950,7 @@ function Home() {
               <div className="flex gap-3">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.instagram.com/jovenspeladiferenca/"
                   title="Instagram"
                   className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
@@ -902,6 +966,7 @@ function Home() {
                 </a>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.facebook.com/jovenspeladiferenca/?locale=pt_BR"
                   title="Facebook"
                   className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
@@ -917,6 +982,7 @@ function Home() {
                 </a>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="mailto:jpdprojetosocial@gmail.com"
                   title="Gmail"
                   className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-blue-600 text-gray-200"
