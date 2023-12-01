@@ -119,8 +119,8 @@ function Home() {
 
       <section id="banner" className="w-11/12 mx-auto lg:mb-16">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-around">
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-xl lg:text-left">
-            <div className="text-4xl font-bold sm:text-6xl text-center">
+          <div className="flex flex-col justify-center py-6 px-2 sm:p-6 text-center rounded-sm lg:max-w-md xl:max-w-xl lg:text-left">
+            <div className="text-4xl font-bold sm:text-6xl ">
               <p>ASSOCIAÇÃO</p>
               <p>
                 CIVIL <span className="text-blue-500">JOVENS</span>
@@ -129,7 +129,7 @@ function Home() {
                 <span className="text-blue-500">PELA DIFERENÇA</span>
               </p>
             </div>
-            <p className="mt-6 mb-8 sm:text-lg sm:mb-12">
+            <p className="mt-6 mb-8 sm:text-lg">
               ONG com mais de 300 voluntários ativos
               <br className="hidden md:inline lg:hidden" /> que vem há 8 anos
               fazendo a diferença em Fortaleza - CE
